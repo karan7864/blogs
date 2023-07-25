@@ -1,0 +1,66 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ee9d9d;
+}
+
+h2 {
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 10px;
+}
+
+.comments {
+  margin-top: 20px;
+}
+
+#comment-form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+#comment-input {
+  resize: vertical;
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 20px;
+}
+
+.comment-info {
+  font-size: 0.8rem;
+  color: #888;
+}
+
+.comment-text {
+  margin-top: 5px;
+}
+
+.comment-actions {
+  margin-top: 10px;
+}
+
+.comment-actions button {
+  margin-right: 10px;
+}
